@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#navbar {
+    position: sticky;
+    display: flex;
+    align-items: center;
+
+}
+
+#logo {
+    margin: 10px 12px;
+    height: 65px;
+
+}
+
+#logo img {
+    height: 65px;
+    margin: 14px 35px;
+
+}
+
+
+
+
+
+#navbar ul {
+    display: flex;
+
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+#navbar ul li {
+
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+
+#navbar ul li a {
+    color: aliceblue;
+    display: block;
+    padding: 5px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: beige;
+
+
+}
+
+#home {
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 220px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#home::before {
+    content: "";
+    background-image: url(images/3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 80%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+#home h1 {
+    color: black;
+    text-align: center;
+
+}
+
+.h-primary2 {
+    font-size: 2.8rem;
+    margin-top: 35px;
+
+}
+
+.h-secondary {
+    font-size: 2.3rem;
+    padding: 12px;
+
+}
+
+.center {
+    text-align: center;
+
+}
+
+.primary {
+    font-size: 3.8rem;
+    padding: 12px;
+
+}
+
+#home p {
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid black;
+    background-color: black;
+    color: aliceblue;
+    margin: 18px;
+    font-size: 1.6rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+.btn:hover {  color:black; background-color:white; transition: 0.4s;}
+    
+#services { 
+    margin: 34px;
+    display: flex;
+
+}
+
+#services .box { box-shadow: 20px 20px 5px black;
+    
+    padding: 40px;
+    margin: 22px 15px;
+    border-radius: 28px;
+    background-color: rgb(209, 244, 244);
+
+}
+
+#services .box img { border-radius: 10px;
+    margin: auto;
+    height: 220px;
+display: block;
+    
+
+}
+
+#client-section {
+    
+
+}
+
+#clients {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#clients img { border-radius: 30px;
+    height: 120px;
+    padding: 20px;
+
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background-image: url(images/3.jpeg);
+    width: 100%;
+    height: 39%;
+    z-index: -1;
+    opacity: 0.4;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 63%;
+    z-index: -1;
+    opacity: 0.8;
+    background-image: url(images/cont.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+#form-group {
+    align-items: center;
+
+}
+
+#contact-box input,
+#contact-box textarea { border-radius: 10px;
+    width: 100%;
+    padding: 0.8rem;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer { display:flex; justify-content: center;
+    background: linear-gradient( to left,rgb(213, 199, 199),rgb(127, 240, 127));
+    width: 100%;
+
+
+}
+
+footer .center { font-size: 1.5rem; padding-bottom: 10px; padding-top: 10px;
+    color: rgb(17, 0, 0);
+
+}
